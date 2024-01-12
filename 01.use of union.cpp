@@ -1,14 +1,17 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-union money {
+// sumit sah
+union money
+{
     char c;
     int n;
-    
+
     float f;
 };
-int main(){
+int main()
+{
     union money m2;
-    m2.c='c';
-    m2.n=2;
-    cout<<m2.n;
+    m2.c = 'c';
+    m2.n = 2;
+    cout << m2.n;
 }
